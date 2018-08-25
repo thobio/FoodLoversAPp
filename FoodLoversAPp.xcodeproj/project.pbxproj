@@ -13,6 +13,10 @@
 		C8503950213145F7005CCE28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C850394F213145F7005CCE28 /* Assets.xcassets */; };
 		C8503953213145F8005CCE28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8503951213145F8005CCE28 /* LaunchScreen.storyboard */; };
 		C850395B21316ED9005CCE28 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850395A21316ED8005CCE28 /* SignUpViewController.swift */; };
+		C850396021317DCC005CCE28 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850395F21317DCC005CCE28 /* HomeViewController.swift */; };
+		C850396221317F4F005CCE28 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850396121317F4F005CCE28 /* CameraViewController.swift */; };
+		C850396421317FEB005CCE28 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850396321317FEB005CCE28 /* SearchViewController.swift */; };
+		C850396621319402005CCE28 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850396521319401005CCE28 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C8503952213145F8005CCE28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8503954213145F9005CCE28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C850395A21316ED8005CCE28 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C850395F21317DCC005CCE28 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C850396121317F4F005CCE28 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C850396321317FEB005CCE28 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C850396521319401005CCE28 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,10 @@
 			children = (
 				C850394A213145C2005CCE28 /* SigninViewController.swift */,
 				C850395A21316ED8005CCE28 /* SignUpViewController.swift */,
+				C850395F21317DCC005CCE28 /* HomeViewController.swift */,
+				C850396121317F4F005CCE28 /* CameraViewController.swift */,
+				C850396321317FEB005CCE28 /* SearchViewController.swift */,
+				C850396521319401005CCE28 /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -162,9 +174,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C850396421317FEB005CCE28 /* SearchViewController.swift in Sources */,
 				C850395B21316ED9005CCE28 /* SignUpViewController.swift in Sources */,
+				C850396221317F4F005CCE28 /* CameraViewController.swift in Sources */,
 				C850394B213145C2005CCE28 /* SigninViewController.swift in Sources */,
+				C850396621319402005CCE28 /* ProfileViewController.swift in Sources */,
 				C8503949213145C1005CCE28 /* AppDelegate.swift in Sources */,
+				C850396021317DCC005CCE28 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
