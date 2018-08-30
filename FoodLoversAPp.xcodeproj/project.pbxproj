@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B30CA484DF2414D7FA44C64 /* Pods_FoodLoversAPp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBF8983C498DB0E9B241C3F /* Pods_FoodLoversAPp.framework */; };
+		8490CBAE2137C7D400EB7040 /* CustomTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBAD2137C7D400EB7040 /* CustomTextFields.swift */; };
+		8490CBB02137C9F200EB7040 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBAF2137C9F200EB7040 /* RoundImageView.swift */; };
+		8490CBB22137CB9800EB7040 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8490CBB12137CB9800EB7040 /* GoogleService-Info.plist */; };
+		8490CBB52137E5B200EB7040 /* AlertViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBB42137E5B200EB7040 /* AlertViews.swift */; };
+		8490CBF72137F74B00EB7040 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBE12137F74B00EB7040 /* IQNSArray+Sort.swift */; };
+		8490CBF82137F74B00EB7040 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBE22137F74B00EB7040 /* IQUIScrollView+Additions.swift */; };
+		8490CBF92137F74B00EB7040 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBE32137F74B00EB7040 /* IQUITextFieldView+Additions.swift */; };
+		8490CBFA2137F74B00EB7040 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBE42137F74B00EB7040 /* IQUIView+Hierarchy.swift */; };
+		8490CBFB2137F74B00EB7040 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBE52137F74B00EB7040 /* IQUIViewController+Additions.swift */; };
+		8490CBFC2137F74B00EB7040 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBE72137F74B00EB7040 /* IQKeyboardManagerConstants.swift */; };
+		8490CBFD2137F74B00EB7040 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBE82137F74B00EB7040 /* IQKeyboardManagerConstantsInternal.swift */; };
+		8490CBFE2137F74B00EB7040 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBE92137F74B00EB7040 /* IQKeyboardManager.swift */; };
+		8490CBFF2137F74B00EB7040 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBEB2137F74B00EB7040 /* IQKeyboardReturnKeyHandler.swift */; };
+		8490CC002137F74B00EB7040 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBED2137F74B00EB7040 /* IQTextView.swift */; };
+		8490CC012137F74B00EB7040 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBEF2137F74B00EB7040 /* IQBarButtonItem.swift */; };
+		8490CC022137F74B00EB7040 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBF02137F74B00EB7040 /* IQInvocation.swift */; };
+		8490CC032137F74B00EB7040 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBF12137F74B00EB7040 /* IQPreviousNextView.swift */; };
+		8490CC042137F74B00EB7040 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBF22137F74B00EB7040 /* IQTitleBarButtonItem.swift */; };
+		8490CC052137F74B00EB7040 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBF32137F74B00EB7040 /* IQToolbar.swift */; };
+		8490CC062137F74B00EB7040 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBF42137F74B00EB7040 /* IQUIView+IQKeyboardToolbar.swift */; };
+		8490CC072137F74B00EB7040 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8490CBF62137F74B00EB7040 /* IQKeyboardManager.bundle */; };
 		C8503949213145C1005CCE28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8503948213145C1005CCE28 /* AppDelegate.swift */; };
 		C850394B213145C2005CCE28 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850394A213145C2005CCE28 /* SigninViewController.swift */; };
 		C850394E213145C2005CCE28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C850394C213145C2005CCE28 /* Main.storyboard */; };
@@ -20,6 +42,30 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00DE0E95B608D2F5BD5420E8 /* Pods-FoodLoversAPp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLoversAPp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodLoversAPp/Pods-FoodLoversAPp.debug.xcconfig"; sourceTree = "<group>"; };
+		4CBF8983C498DB0E9B241C3F /* Pods_FoodLoversAPp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodLoversAPp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8490CBAD2137C7D400EB7040 /* CustomTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFields.swift; sourceTree = "<group>"; };
+		8490CBAF2137C9F200EB7040 /* RoundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		8490CBB12137CB9800EB7040 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8490CBB42137E5B200EB7040 /* AlertViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViews.swift; sourceTree = "<group>"; };
+		8490CBE12137F74B00EB7040 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		8490CBE22137F74B00EB7040 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		8490CBE32137F74B00EB7040 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		8490CBE42137F74B00EB7040 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		8490CBE52137F74B00EB7040 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		8490CBE72137F74B00EB7040 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		8490CBE82137F74B00EB7040 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		8490CBE92137F74B00EB7040 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		8490CBEA2137F74B00EB7040 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		8490CBEB2137F74B00EB7040 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		8490CBED2137F74B00EB7040 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		8490CBEF2137F74B00EB7040 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		8490CBF02137F74B00EB7040 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		8490CBF12137F74B00EB7040 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		8490CBF22137F74B00EB7040 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		8490CBF32137F74B00EB7040 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		8490CBF42137F74B00EB7040 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		8490CBF62137F74B00EB7040 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
 		C8503945213145BA005CCE28 /* FoodLoversAPp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodLoversAPp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8503948213145C1005CCE28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C850394A213145C2005CCE28 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +78,7 @@
 		C850396121317F4F005CCE28 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		C850396321317FEB005CCE28 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		C850396521319401005CCE28 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DE97E00EBD880888B7F19663 /* Pods-FoodLoversAPp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLoversAPp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodLoversAPp/Pods-FoodLoversAPp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +86,120 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B30CA484DF2414D7FA44C64 /* Pods_FoodLoversAPp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341127DF0ACE5A79E278CF10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CBF8983C498DB0E9B241C3F /* Pods_FoodLoversAPp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8490CBAC2137C7BF00EB7040 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8490CBAD2137C7D400EB7040 /* CustomTextFields.swift */,
+				8490CBAF2137C9F200EB7040 /* RoundImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8490CBB32137E58C00EB7040 /* ExtentionFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8490CBB42137E5B200EB7040 /* AlertViews.swift */,
+			);
+			path = ExtentionFiles;
+			sourceTree = "<group>";
+		};
+		8490CBDF2137F74B00EB7040 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				8490CBE02137F74B00EB7040 /* Categories */,
+				8490CBE62137F74B00EB7040 /* Constants */,
+				8490CBE92137F74B00EB7040 /* IQKeyboardManager.swift */,
+				8490CBEA2137F74B00EB7040 /* IQKeyboardManagerSwift.h */,
+				8490CBEB2137F74B00EB7040 /* IQKeyboardReturnKeyHandler.swift */,
+				8490CBEC2137F74B00EB7040 /* IQTextView */,
+				8490CBEE2137F74B00EB7040 /* IQToolbar */,
+				8490CBF52137F74B00EB7040 /* Resources */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = "../../../Downloads/IQKeyboardManager-master 4/IQKeyboardManagerSwift";
+			sourceTree = "<group>";
+		};
+		8490CBE02137F74B00EB7040 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8490CBE12137F74B00EB7040 /* IQNSArray+Sort.swift */,
+				8490CBE22137F74B00EB7040 /* IQUIScrollView+Additions.swift */,
+				8490CBE32137F74B00EB7040 /* IQUITextFieldView+Additions.swift */,
+				8490CBE42137F74B00EB7040 /* IQUIView+Hierarchy.swift */,
+				8490CBE52137F74B00EB7040 /* IQUIViewController+Additions.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8490CBE62137F74B00EB7040 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8490CBE72137F74B00EB7040 /* IQKeyboardManagerConstants.swift */,
+				8490CBE82137F74B00EB7040 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8490CBEC2137F74B00EB7040 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8490CBED2137F74B00EB7040 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		8490CBEE2137F74B00EB7040 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				8490CBEF2137F74B00EB7040 /* IQBarButtonItem.swift */,
+				8490CBF02137F74B00EB7040 /* IQInvocation.swift */,
+				8490CBF12137F74B00EB7040 /* IQPreviousNextView.swift */,
+				8490CBF22137F74B00EB7040 /* IQTitleBarButtonItem.swift */,
+				8490CBF32137F74B00EB7040 /* IQToolbar.swift */,
+				8490CBF42137F74B00EB7040 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		8490CBF52137F74B00EB7040 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8490CBF62137F74B00EB7040 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9E35E3EE45D49F5F6A02ECF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00DE0E95B608D2F5BD5420E8 /* Pods-FoodLoversAPp.debug.xcconfig */,
+				DE97E00EBD880888B7F19663 /* Pods-FoodLoversAPp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C850393C213145B3005CCE28 = {
 			isa = PBXGroup;
 			children = (
 				C8503947213145BB005CCE28 /* FoodLoversAPp */,
 				C8503946213145BA005CCE28 /* Products */,
+				9E35E3EE45D49F5F6A02ECF5 /* Pods */,
+				341127DF0ACE5A79E278CF10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,14 +214,16 @@
 		C8503947213145BB005CCE28 /* FoodLoversAPp */ = {
 			isa = PBXGroup;
 			children = (
-				C850395E213174A2005CCE28 /* DataModel */,
-				C850395D2131747C005CCE28 /* View */,
+				8490CBDF2137F74B00EB7040 /* IQKeyboardManagerSwift */,
+				8490CBB32137E58C00EB7040 /* ExtentionFiles */,
+				8490CBAC2137C7BF00EB7040 /* View */,
 				C850395C21317456005CCE28 /* Controller */,
 				C8503948213145C1005CCE28 /* AppDelegate.swift */,
 				C850394C213145C2005CCE28 /* Main.storyboard */,
 				C850394F213145F7005CCE28 /* Assets.xcassets */,
 				C8503951213145F8005CCE28 /* LaunchScreen.storyboard */,
 				C8503954213145F9005CCE28 /* Info.plist */,
+				8490CBB12137CB9800EB7040 /* GoogleService-Info.plist */,
 			);
 			path = FoodLoversAPp;
 			sourceTree = "<group>";
@@ -89,20 +241,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		C850395D2131747C005CCE28 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C850395E213174A2005CCE28 /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataModel;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8503957213145F9005CCE28 /* Build configuration list for PBXNativeTarget "FoodLoversAPp" */;
 			buildPhases = (
+				1DEC6E62E47222B40712C9B3 /* [CP] Check Pods Manifest.lock */,
 				C8503941213145BA005CCE28 /* Sources */,
 				C8503942213145BA005CCE28 /* Frameworks */,
 				C8503943213145BA005CCE28 /* Resources */,
+				1EBD0B247B4F64DDD30E635A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,7 +301,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8490CC072137F74B00EB7040 /* IQKeyboardManager.bundle in Resources */,
 				C8503953213145F8005CCE28 /* LaunchScreen.storyboard in Resources */,
+				8490CBB22137CB9800EB7040 /* GoogleService-Info.plist in Resources */,
 				C8503950213145F7005CCE28 /* Assets.xcassets in Resources */,
 				C850394E213145C2005CCE28 /* Main.storyboard in Resources */,
 			);
@@ -169,18 +311,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DEC6E62E47222B40712C9B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodLoversAPp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EBD0B247B4F64DDD30E635A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FoodLoversAPp/Pods-FoodLoversAPp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodLoversAPp/Pods-FoodLoversAPp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C8503941213145BA005CCE28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8490CBAE2137C7D400EB7040 /* CustomTextFields.swift in Sources */,
+				8490CC022137F74B00EB7040 /* IQInvocation.swift in Sources */,
 				C850396421317FEB005CCE28 /* SearchViewController.swift in Sources */,
 				C850395B21316ED9005CCE28 /* SignUpViewController.swift in Sources */,
 				C850396221317F4F005CCE28 /* CameraViewController.swift in Sources */,
+				8490CBFA2137F74B00EB7040 /* IQUIView+Hierarchy.swift in Sources */,
+				8490CC002137F74B00EB7040 /* IQTextView.swift in Sources */,
 				C850394B213145C2005CCE28 /* SigninViewController.swift in Sources */,
+				8490CBFE2137F74B00EB7040 /* IQKeyboardManager.swift in Sources */,
+				8490CC042137F74B00EB7040 /* IQTitleBarButtonItem.swift in Sources */,
+				8490CBF82137F74B00EB7040 /* IQUIScrollView+Additions.swift in Sources */,
+				8490CC012137F74B00EB7040 /* IQBarButtonItem.swift in Sources */,
+				8490CBF72137F74B00EB7040 /* IQNSArray+Sort.swift in Sources */,
+				8490CC052137F74B00EB7040 /* IQToolbar.swift in Sources */,
 				C850396621319402005CCE28 /* ProfileViewController.swift in Sources */,
 				C8503949213145C1005CCE28 /* AppDelegate.swift in Sources */,
+				8490CBB52137E5B200EB7040 /* AlertViews.swift in Sources */,
 				C850396021317DCC005CCE28 /* HomeViewController.swift in Sources */,
+				8490CC062137F74B00EB7040 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				8490CBFC2137F74B00EB7040 /* IQKeyboardManagerConstants.swift in Sources */,
+				8490CBFB2137F74B00EB7040 /* IQUIViewController+Additions.swift in Sources */,
+				8490CC032137F74B00EB7040 /* IQPreviousNextView.swift in Sources */,
+				8490CBB02137C9F200EB7040 /* RoundImageView.swift in Sources */,
+				8490CBFF2137F74B00EB7040 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				8490CBF92137F74B00EB7040 /* IQUITextFieldView+Additions.swift in Sources */,
+				8490CBFD2137F74B00EB7040 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +540,7 @@
 		};
 		C8503958213145F9005CCE28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DE0E95B608D2F5BD5420E8 /* Pods-FoodLoversAPp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -340,6 +559,7 @@
 		};
 		C8503959213145F9005CCE28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE97E00EBD880888B7F19663 /* Pods-FoodLoversAPp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

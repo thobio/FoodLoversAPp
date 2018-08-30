@@ -7,33 +7,37 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FirebaseFirestore
 
 class SigninViewController: UIViewController {
+    
     @IBOutlet var emailTextFields: UITextField!
     @IBOutlet var passwordTextFields: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        UIDisgnFunction()
     }
-    func UIDisgnFunction(){
-        
-        self.emailTextFields.attributedPlaceholder = NSAttributedString(string: emailTextFields.placeholder!, attributes: [NSAttributedStringKey.foregroundColor: UIColor(white: 1.0, alpha: 0.6)])
-        self.emailTextFields.layer.addSublayer(textFieldsDesign(textFields: self.emailTextFields))
-        
-        
-        self.passwordTextFields.attributedPlaceholder = NSAttributedString(string: passwordTextFields.placeholder!, attributes: [NSAttributedStringKey.foregroundColor : UIColor(white: 1.0, alpha: 0.6)])
-        self.passwordTextFields.layer.addSublayer(textFieldsDesign(textFields: self.passwordTextFields))
-        
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        if Auth.auth().currentUser != nil {
+                self.performSegue(withIdentifier: "loginSeg", sender: self)
+        }
     }
-    
-    func textFieldsDesign(textFields:UITextField) -> CALayer{
-        
-        let bottomLayer = CALayer()
-        bottomLayer.frame = CGRect(x: 0, y: textFields.bounds.height - 1, width: textFields.bounds.width + 8, height: 0.6)
-        bottomLayer.backgroundColor = UIColor.white.withAlphaComponent(0.4).cgColor
-        return bottomLayer
-        
+    @IBAction func siginInAction(_ sender: UIButton) {
+        Auth.auth().signIn(withEmail: emailTextFields.text!, password: passwordTextFields.text!) { (auths, error) in
+            if error != nil{
+                AlertViews.showBasicAlertError(on: self, with: "Error", message: (error?.localizedDescription)!)
+                return
+            }
+            guard let currentUser = auths?.user else{return}
+            self.performSegue(withIdentifier: "loginSeg", sender: self)
+        }
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "loginSeg" {
+            
+        }
+    }
 }
 
