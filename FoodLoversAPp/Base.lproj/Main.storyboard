@@ -44,7 +44,6 @@
                                 </state>
                                 <connections>
                                     <action selector="siginInAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vVa-xb-q8H"/>
-                                    <segue destination="EYR-ZR-kng" kind="presentation" identifier="loginSeg" id="3fD-5E-aBs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mop-rx-Ff0">
@@ -150,7 +149,6 @@
                                         </state>
                                         <connections>
                                             <action selector="signUpAction:" destination="BE1-Uc-OwU" eventType="touchUpInside" id="7hf-j0-89O"/>
-                                            <segue destination="EYR-ZR-kng" kind="presentation" identifier="siginPage" id="nBQ-YZ-oRQ"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -273,7 +271,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="uLc-Rh-8Uh">
             <objects>
-                <tabBarController id="EYR-ZR-kng" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabBar" id="EYR-ZR-kng" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Pws-x8-uvj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -384,7 +382,4 @@
         <image name="outline_camera_alt_black_24pt" width="24" height="24"/>
         <image name="outline_home_black_24pt" width="24" height="24"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="3fD-5E-aBs"/>
-    </inferredMetricsTieBreakers>
 </document>

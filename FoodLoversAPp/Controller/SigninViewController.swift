@@ -10,34 +10,45 @@ import UIKit
 import FirebaseAuth
 import FirebaseFirestore
 
-class SigninViewController: UIViewController {
+class SigninViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet var emailTextFields: UITextField!
     @IBOutlet var passwordTextFields: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.emailTextFields.delegate = self
+        self.passwordTextFields.delegate = self
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
         if Auth.auth().currentUser != nil {
-                self.performSegue(withIdentifier: "loginSeg", sender: self)
+            let tabBarUI = self.storyboard?.instantiateViewController(withIdentifier: "tabBar") as! UITabBarController
+            self.present(tabBarUI, animated: true, completion: nil)
         }
     }
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
     @IBAction func siginInAction(_ sender: UIButton) {
+        ProgressHUD.show("Waiting....", interaction: false)
         Auth.auth().signIn(withEmail: emailTextFields.text!, password: passwordTextFields.text!) { (auths, error) in
             if error != nil{
-                AlertViews.showBasicAlertError(on: self, with: "Error", message: (error?.localizedDescription)!)
+                ProgressHUD.showError(error?.localizedDescription)
+                //AlertViews.showBasicAlertError(on: self, with: "Error", message: (error?.localizedDescription)!)
                 return
             }
             guard let currentUser = auths?.user else{return}
-            self.performSegue(withIdentifier: "loginSeg", sender: self)
+            ProgressHUD.showSuccess("Success")
+            let tabBarUI = self.storyboard?.instantiateViewController(withIdentifier: "tabBar") as! UITabBarController
+            self.present(tabBarUI, animated: true, completion: nil)
         }
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "loginSeg" {
-            
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "loginSeg" {
+//
+//        }
+//    }
 }
 

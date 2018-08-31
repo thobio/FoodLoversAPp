@@ -29,6 +29,9 @@
 		8490CC052137F74B00EB7040 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBF32137F74B00EB7040 /* IQToolbar.swift */; };
 		8490CC062137F74B00EB7040 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8490CBF42137F74B00EB7040 /* IQUIView+IQKeyboardToolbar.swift */; };
 		8490CC072137F74B00EB7040 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8490CBF62137F74B00EB7040 /* IQKeyboardManager.bundle */; };
+		84C4ABED2139292500F7C67D /* AuthSingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C4ABEC2139292500F7C67D /* AuthSingletonClass.swift */; };
+		84C4ABF821395A5600F7C67D /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84C4ABF521395A5600F7C67D /* ProgressHUD.bundle */; };
+		84C4ABF921395A5600F7C67D /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C4ABF721395A5600F7C67D /* ProgressHUD.m */; };
 		C8503949213145C1005CCE28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8503948213145C1005CCE28 /* AppDelegate.swift */; };
 		C850394B213145C2005CCE28 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C850394A213145C2005CCE28 /* SigninViewController.swift */; };
 		C850394E213145C2005CCE28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C850394C213145C2005CCE28 /* Main.storyboard */; };
@@ -66,6 +69,11 @@
 		8490CBF32137F74B00EB7040 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
 		8490CBF42137F74B00EB7040 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
 		8490CBF62137F74B00EB7040 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		84C4ABEC2139292500F7C67D /* AuthSingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSingletonClass.swift; sourceTree = "<group>"; };
+		84C4ABF421395A5500F7C67D /* FoodLoversAPp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodLoversAPp-Bridging-Header.h"; sourceTree = "<group>"; };
+		84C4ABF521395A5600F7C67D /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		84C4ABF621395A5600F7C67D /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		84C4ABF721395A5600F7C67D /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		C8503945213145BA005CCE28 /* FoodLoversAPp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodLoversAPp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8503948213145C1005CCE28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C850394A213145C2005CCE28 /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
@@ -184,6 +192,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		84C4ABEB213928AE00F7C67D /* SingletonClass */ = {
+			isa = PBXGroup;
+			children = (
+				84C4ABEC2139292500F7C67D /* AuthSingletonClass.swift */,
+			);
+			path = SingletonClass;
+			sourceTree = "<group>";
+		};
 		9E35E3EE45D49F5F6A02ECF5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,6 +230,10 @@
 		C8503947213145BB005CCE28 /* FoodLoversAPp */ = {
 			isa = PBXGroup;
 			children = (
+				84C4ABF521395A5600F7C67D /* ProgressHUD.bundle */,
+				84C4ABF621395A5600F7C67D /* ProgressHUD.h */,
+				84C4ABF721395A5600F7C67D /* ProgressHUD.m */,
+				84C4ABEB213928AE00F7C67D /* SingletonClass */,
 				8490CBDF2137F74B00EB7040 /* IQKeyboardManagerSwift */,
 				8490CBB32137E58C00EB7040 /* ExtentionFiles */,
 				8490CBAC2137C7BF00EB7040 /* View */,
@@ -224,6 +244,7 @@
 				C8503951213145F8005CCE28 /* LaunchScreen.storyboard */,
 				C8503954213145F9005CCE28 /* Info.plist */,
 				8490CBB12137CB9800EB7040 /* GoogleService-Info.plist */,
+				84C4ABF421395A5500F7C67D /* FoodLoversAPp-Bridging-Header.h */,
 			);
 			path = FoodLoversAPp;
 			sourceTree = "<group>";
@@ -275,6 +296,7 @@
 				TargetAttributes = {
 					C8503944213145BA005CCE28 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -303,6 +325,7 @@
 			files = (
 				8490CC072137F74B00EB7040 /* IQKeyboardManager.bundle in Resources */,
 				C8503953213145F8005CCE28 /* LaunchScreen.storyboard in Resources */,
+				84C4ABF821395A5600F7C67D /* ProgressHUD.bundle in Resources */,
 				8490CBB22137CB9800EB7040 /* GoogleService-Info.plist in Resources */,
 				C8503950213145F7005CCE28 /* Assets.xcassets in Resources */,
 				C850394E213145C2005CCE28 /* Main.storyboard in Resources */,
@@ -379,9 +402,11 @@
 				C850395B21316ED9005CCE28 /* SignUpViewController.swift in Sources */,
 				C850396221317F4F005CCE28 /* CameraViewController.swift in Sources */,
 				8490CBFA2137F74B00EB7040 /* IQUIView+Hierarchy.swift in Sources */,
+				84C4ABED2139292500F7C67D /* AuthSingletonClass.swift in Sources */,
 				8490CC002137F74B00EB7040 /* IQTextView.swift in Sources */,
 				C850394B213145C2005CCE28 /* SigninViewController.swift in Sources */,
 				8490CBFE2137F74B00EB7040 /* IQKeyboardManager.swift in Sources */,
+				84C4ABF921395A5600F7C67D /* ProgressHUD.m in Sources */,
 				8490CC042137F74B00EB7040 /* IQTitleBarButtonItem.swift in Sources */,
 				8490CBF82137F74B00EB7040 /* IQUIScrollView+Additions.swift in Sources */,
 				8490CC012137F74B00EB7040 /* IQBarButtonItem.swift in Sources */,
@@ -543,6 +568,7 @@
 			baseConfigurationReference = 00DE0E95B608D2F5BD5420E8 /* Pods-FoodLoversAPp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YZ84UFMU3;
 				INFOPLIST_FILE = FoodLoversAPp/Info.plist;
@@ -552,6 +578,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.love2Code.FoodLoversAPp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodLoversAPp/FoodLoversAPp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -562,6 +590,7 @@
 			baseConfigurationReference = DE97E00EBD880888B7F19663 /* Pods-FoodLoversAPp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YZ84UFMU3;
 				INFOPLIST_FILE = FoodLoversAPp/Info.plist;
@@ -571,6 +600,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.love2Code.FoodLoversAPp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoodLoversAPp/FoodLoversAPp-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
